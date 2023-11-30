@@ -2,9 +2,12 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ciarapayne from "@/public/ciarapayne.png";
+import actmedia from "@/public/actmedia.png";
+import movieland from "@/public/movieland.png";
+import promptopia from "@/public/promptopia.png";
+import vodirectory from "@/public/vodirectory.png";
+import nextadmin from "@/public/nextadmin.png";
 
 export const links = [
   {
@@ -62,25 +65,67 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Ciara Payne | Voice Actress",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Portfolio website for an amazing voice actress! Next JS version currently on development for optimization.",
+    tags: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "Alpine JS"],
+    imageUrl: ciarapayne,
+    link: "https://ciarapayne.netlify.app/",
   },
   {
-    title: "rmtDev",
+    title: "Movieland",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Movie searcher web app. It takes the top 10 results of the searched term and renders them as individual poster cards. The release dates are shown upon hovering over them.",
+    tags: ["JSX", "React", "CSS"],
+    imageUrl: movieland,
+    link: "https://actmovieland.netlify.app/",
   },
   {
-    title: "Word Analytics",
+    title: "ACT Media",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "YouTube Clone web app. I utilized Axios to fetch videos via YouTube v3 RapidAPI. You can watch your favorite videos here!",
+    tags: [
+      "JSX",
+      "React",
+      "CSS",
+      "Axios",
+      "RapidAPI",
+      "React Router",
+      "Material UI",
+    ],
+    imageUrl: actmedia,
+    link: "https://actmedia.netlify.app/",
+  },
+  {
+    title: "Promptopia",
+    description:
+      "Full-stack AI prompt sharing website. Sign in via Google and create your own prompts to share!",
+    tags: [
+      "React",
+      "CSS",
+      "Tailwind CSS",
+      "Next JS",
+      "Google OAuth",
+      "MongoDB",
+    ],
+    imageUrl: promptopia,
+    link: "https://promptopia-blush-beta.vercel.app/",
+  },
+  {
+    title: "NextAdmin",
+    description:
+      "Admin dashboard. Users and products pages functional with CRUD operations, searching, and pagination.",
+    tags: ["React", "Next JS", "Next Auth", "CSS", "MongoDB"],
+    imageUrl: nextadmin,
+    link: "https://nextadmin-orcin.vercel.app/",
+  },
+  {
+    title: "VODirectory",
+    description:
+      "Voice over resource hub. Currently under development. This site will serve as a place where any voice talent in any level can find whatever they need regarding voiceover.",
+    tags: ["Next JS", "Tailwind CSS"],
+    imageUrl: vodirectory,
+    link: "https://vodirectory.vercel.app/",
   },
 ] as const;
 
