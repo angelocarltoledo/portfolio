@@ -38,28 +38,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated From University",
+    location: "Dumaguete, Philippines",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 5 years of studying and immediately found a job as a full-stack developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Cebu, Philippines",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I worked as a full-stack developer for 1 year in the head office of a hotel chain. My greatest accomplishment was creating a portal for partnering travel agencies to place special-rate hotel bookings during peak travelling seasons.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018 - 2019",
+  },
+  {
+    title: "Front-End Developer",
+    location: "Vancouver, Canada",
+    description:
+      "After recognizing the appeal of front-end development, I shifted my focus towards it. I'm now a front-end developer working as a freelancer. My core stack is JavaScript, React, Next.js, and TailwindCSS. I'm open to full-time opportunities!",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2019 - present",
   },
 ] as const;
 
@@ -136,17 +136,17 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Alpine.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
+  "Git",
+  "Tailwind CSS",
+  "MongoDB",
   "Python",
-  "Django",
+  "C",
+  "C#",
+  "C++",
+  "SQL",
+  "MySQL",
   "Framer Motion",
 ] as const;

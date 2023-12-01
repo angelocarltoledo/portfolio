@@ -33,10 +33,10 @@ export default function About() {
       <p className="mb-3">
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        feeling of finally figuring out a solution to a problem. My core
+        front-end stack is{" "}
         <span className="font-medium">
-          Next.js, TailwindCSS, TypeScript, and MongoDB
+          JavaScript, React, Next.js, and TailwindCSS
         </span>
         . I am always keeping myself updated with new technologies (I'm diving
         into Framer Motion with this portfolio website!) and I am currently
