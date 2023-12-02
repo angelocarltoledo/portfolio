@@ -114,7 +114,7 @@ export const projectsData = [
   {
     title: "NextAdmin",
     description:
-      "Admin dashboard. Users and products pages functional with CRUD operations, searching, and pagination.",
+      "Admin dashboard. Users and products pages functional with CRUD operations, searching, and pagination. To see the dashboard, login with the following username and password credentials: guest, guest123.",
     tags: ["React", "Next JS", "Next Auth", "CSS", "MongoDB"],
     imageUrl: nextadmin,
     link: "https://nextadmin-orcin.vercel.app/",
