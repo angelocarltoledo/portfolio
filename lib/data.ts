@@ -49,7 +49,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Cebu, Philippines",
     description:
-      "I worked as a full-stack developer for 1 year in the head office of a hotel chain. My greatest accomplishment was creating a portal for partnering travel agencies to place special-rate hotel bookings during peak travelling seasons.",
+      "I worked as a full-stack developer for 1 year in the head office of a hotel chain. My greatest accomplishment was creating a portal for partnering travel agencies to place special-rate hotel bookings during peak travelling seasons. I flew abroad after my resignation.",
     icon: React.createElement(CgWorkAlt),
     date: "2018 - 2019",
   },
