@@ -123,7 +123,7 @@ export const projectsData = [
     title: "VODirectory",
     description:
       "Voice over resource hub. Currently under development. This site will serve as a place where any voice talent in any level can find whatever they need regarding voiceover.",
-    tags: ["Next JS", "Tailwind CSS"],
+    tags: ["JavaScript", "React", "Next JS", "Tailwind CSS"],
     imageUrl: vodirectory,
     link: "https://vodirectory.vercel.app/",
   },
