@@ -33,8 +33,8 @@ export default function About() {
       <p className="mb-3">
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core
-        front-end stack is{" "}
+        feeling of finally figuring out a solution to a problem. My core stack
+        is{" "}
         <span className="font-medium">
           JavaScript, React, Next.js, and TailwindCSS
         </span>

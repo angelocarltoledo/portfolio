@@ -54,10 +54,10 @@ export const experiencesData = [
     date: "2018 - 2019",
   },
   {
-    title: "Front-End Developer",
+    title: "Web Developer",
     location: "Vancouver, Canada",
     description:
-      "After recognizing the appeal of front-end development, I shifted my focus towards it. I'm now a front-end developer working as a freelancer. My core stack is JavaScript, React, Next.js, and TailwindCSS. I'm open to full-time opportunities!",
+      "Recognizing the appeal of web development, I shifted my focus towards it. I'm now a freelance web developer specializing in front-end development. My core stack is JavaScript, React, Next.js, and TailwindCSS. I'm open to full-time opportunities!",
     icon: React.createElement(FaReact),
     date: "2019 - present",
   },
